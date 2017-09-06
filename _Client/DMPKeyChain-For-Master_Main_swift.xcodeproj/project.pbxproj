@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB2656131F5FD1B600595740 /* TokenKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2656121F5FD1B600595740 /* TokenKeyChain.swift */; };
+		FB2656191F5FD68F00595740 /* SMBUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2656151F5FD68F00595740 /* SMBUIButton.swift */; };
+		FB26561A1F5FD68F00595740 /* SMBUITextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2656161F5FD68F00595740 /* SMBUITextfield.swift */; };
+		FB26561B1F5FD68F00595740 /* SMBUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2656171F5FD68F00595740 /* SMBUITextView.swift */; };
+		FB26561C1F5FD68F00595740 /* SMBUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2656181F5FD68F00595740 /* SMBUIView.swift */; };
+		FB4ED8841F5F9C3E00112337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4ED8831F5F9C3E00112337 /* AppDelegate.swift */; };
+		FB4ED8861F5F9C3E00112337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4ED8851F5F9C3E00112337 /* ViewController.swift */; };
+		FB4ED8891F5F9C3E00112337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4ED8871F5F9C3E00112337 /* Main.storyboard */; };
+		FB4ED88B1F5F9C3E00112337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4ED88A1F5F9C3E00112337 /* Assets.xcassets */; };
+		FB4ED88E1F5F9C3E00112337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4ED88C1F5F9C3E00112337 /* LaunchScreen.storyboard */; };
+		FB4ED8991F5F9C3E00112337 /* DMPKeyChain_For_Master_Main_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4ED8981F5F9C3E00112337 /* DMPKeyChain_For_Master_Main_swiftTests.swift */; };
+		FB4ED8A41F5F9C3E00112337 /* DMPKeyChain_For_Master_Main_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4ED8A31F5F9C3E00112337 /* DMPKeyChain_For_Master_Main_swiftUITests.swift */; };
+		FB4ED8B51F5F9EC600112337 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4ED8B31F5F9EC600112337 /* MainViewController.swift */; };
+		FB4ED8B61F5F9EC600112337 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4ED8B41F5F9EC600112337 /* MainViewController.xib */; };
+		FB4ED8BA1F5FA16500112337 /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4ED8B91F5FA16500112337 /* UICKeyChainStore.m */; };
+		FB4ED8BD1F5FA1BB00112337 /* DMPKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4ED8BC1F5FA1BB00112337 /* DMPKeyChain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB4ED8951F5F9C3E00112337 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4ED8781F5F9C3E00112337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4ED87F1F5F9C3E00112337;
+			remoteInfo = "DMPKeyChain-For-Master_Main_swift";
+		};
+		FB4ED8A01F5F9C3E00112337 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4ED8781F5F9C3E00112337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4ED87F1F5F9C3E00112337;
+			remoteInfo = "DMPKeyChain-For-Master_Main_swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB2656121F5FD1B600595740 /* TokenKeyChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenKeyChain.swift; sourceTree = "<group>"; };
+		FB2656151F5FD68F00595740 /* SMBUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMBUIButton.swift; sourceTree = "<group>"; };
+		FB2656161F5FD68F00595740 /* SMBUITextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMBUITextfield.swift; sourceTree = "<group>"; };
+		FB2656171F5FD68F00595740 /* SMBUITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMBUITextView.swift; sourceTree = "<group>"; };
+		FB2656181F5FD68F00595740 /* SMBUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMBUIView.swift; sourceTree = "<group>"; };
+		FB4ED8801F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DMPKeyChain-For-Master_Main_swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4ED8831F5F9C3E00112337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB4ED8851F5F9C3E00112337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB4ED8881F5F9C3E00112337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB4ED88A1F5F9C3E00112337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB4ED88D1F5F9C3E00112337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB4ED88F1F5F9C3E00112337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4ED8941F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DMPKeyChain-For-Master_Main_swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4ED8981F5F9C3E00112337 /* DMPKeyChain_For_Master_Main_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMPKeyChain_For_Master_Main_swiftTests.swift; sourceTree = "<group>"; };
+		FB4ED89A1F5F9C3E00112337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4ED89F1F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DMPKeyChain-For-Master_Main_swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4ED8A31F5F9C3E00112337 /* DMPKeyChain_For_Master_Main_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMPKeyChain_For_Master_Main_swiftUITests.swift; sourceTree = "<group>"; };
+		FB4ED8A51F5F9C3E00112337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4ED8B11F5F9C4A00112337 /* DMPKeyChain-For-Master_Main_swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DMPKeyChain-For-Master_Main_swift.entitlements"; sourceTree = "<group>"; };
+		FB4ED8B31F5F9EC600112337 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FB4ED8B41F5F9EC600112337 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		FB4ED8B71F5FA16400112337 /* DMPKeyChain-For-Master_Main_swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DMPKeyChain-For-Master_Main_swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		FB4ED8B81F5FA16500112337 /* UICKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICKeyChainStore.h; sourceTree = "<group>"; };
+		FB4ED8B91F5FA16500112337 /* UICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICKeyChainStore.m; sourceTree = "<group>"; };
+		FB4ED8BB1F5FA1BB00112337 /* DMPKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPKeyChain.h; sourceTree = "<group>"; };
+		FB4ED8BC1F5FA1BB00112337 /* DMPKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPKeyChain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB4ED87D1F5F9C3E00112337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4ED8911F5F9C3E00112337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4ED89C1F5F9C3E00112337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB2656111F5FD16F00595740 /* MyLib */ = {
+			isa = PBXGroup;
+			children = (
+				FB2656121F5FD1B600595740 /* TokenKeyChain.swift */,
+			);
+			path = MyLib;
+			sourceTree = "<group>";
+		};
+		FB2656141F5FD68F00595740 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				FB2656151F5FD68F00595740 /* SMBUIButton.swift */,
+				FB2656161F5FD68F00595740 /* SMBUITextfield.swift */,
+				FB2656171F5FD68F00595740 /* SMBUITextView.swift */,
+				FB2656181F5FD68F00595740 /* SMBUIView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		FB4ED8771F5F9C3E00112337 = {
+			isa = PBXGroup;
+			children = (
+				FB4ED8821F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swift */,
+				FB4ED8971F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swiftTests */,
+				FB4ED8A21F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swiftUITests */,
+				FB4ED8811F5F9C3E00112337 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB4ED8811F5F9C3E00112337 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB4ED8801F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swift.app */,
+				FB4ED8941F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swiftTests.xctest */,
+				FB4ED89F1F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB4ED8821F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swift */ = {
+			isa = PBXGroup;
+			children = (
+				FB4ED8B11F5F9C4A00112337 /* DMPKeyChain-For-Master_Main_swift.entitlements */,
+				FB2656141F5FD68F00595740 /* CustomView */,
+				FB4ED8B21F5F9E8000112337 /* Lib */,
+				FB2656111F5FD16F00595740 /* MyLib */,
+				FB4ED8831F5F9C3E00112337 /* AppDelegate.swift */,
+				FB4ED8851F5F9C3E00112337 /* ViewController.swift */,
+				FB4ED8871F5F9C3E00112337 /* Main.storyboard */,
+				FB4ED88A1F5F9C3E00112337 /* Assets.xcassets */,
+				FB4ED88C1F5F9C3E00112337 /* LaunchScreen.storyboard */,
+				FB4ED88F1F5F9C3E00112337 /* Info.plist */,
+				FB4ED8B31F5F9EC600112337 /* MainViewController.swift */,
+				FB4ED8B41F5F9EC600112337 /* MainViewController.xib */,
+			);
+			path = "DMPKeyChain-For-Master_Main_swift";
+			sourceTree = "<group>";
+		};
+		FB4ED8971F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4ED8981F5F9C3E00112337 /* DMPKeyChain_For_Master_Main_swiftTests.swift */,
+				FB4ED89A1F5F9C3E00112337 /* Info.plist */,
+			);
+			path = "DMPKeyChain-For-Master_Main_swiftTests";
+			sourceTree = "<group>";
+		};
+		FB4ED8A21F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4ED8A31F5F9C3E00112337 /* DMPKeyChain_For_Master_Main_swiftUITests.swift */,
+				FB4ED8A51F5F9C3E00112337 /* Info.plist */,
+			);
+			path = "DMPKeyChain-For-Master_Main_swiftUITests";
+			sourceTree = "<group>";
+		};
+		FB4ED8B21F5F9E8000112337 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				FB4ED8BB1F5FA1BB00112337 /* DMPKeyChain.h */,
+				FB4ED8BC1F5FA1BB00112337 /* DMPKeyChain.m */,
+				FB4ED8B81F5FA16500112337 /* UICKeyChainStore.h */,
+				FB4ED8B91F5FA16500112337 /* UICKeyChainStore.m */,
+				FB4ED8B71F5FA16400112337 /* DMPKeyChain-For-Master_Main_swift-Bridging-Header.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB4ED87F1F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4ED8A81F5F9C3E00112337 /* Build configuration list for PBXNativeTarget "DMPKeyChain-For-Master_Main_swift" */;
+			buildPhases = (
+				FB4ED87C1F5F9C3E00112337 /* Sources */,
+				FB4ED87D1F5F9C3E00112337 /* Frameworks */,
+				FB4ED87E1F5F9C3E00112337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DMPKeyChain-For-Master_Main_swift";
+			productName = "DMPKeyChain-For-Master_Main_swift";
+			productReference = FB4ED8801F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB4ED8931F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4ED8AB1F5F9C3E00112337 /* Build configuration list for PBXNativeTarget "DMPKeyChain-For-Master_Main_swiftTests" */;
+			buildPhases = (
+				FB4ED8901F5F9C3E00112337 /* Sources */,
+				FB4ED8911F5F9C3E00112337 /* Frameworks */,
+				FB4ED8921F5F9C3E00112337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4ED8961F5F9C3E00112337 /* PBXTargetDependency */,
+			);
+			name = "DMPKeyChain-For-Master_Main_swiftTests";
+			productName = "DMPKeyChain-For-Master_Main_swiftTests";
+			productReference = FB4ED8941F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB4ED89E1F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4ED8AE1F5F9C3E00112337 /* Build configuration list for PBXNativeTarget "DMPKeyChain-For-Master_Main_swiftUITests" */;
+			buildPhases = (
+				FB4ED89B1F5F9C3E00112337 /* Sources */,
+				FB4ED89C1F5F9C3E00112337 /* Frameworks */,
+				FB4ED89D1F5F9C3E00112337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4ED8A11F5F9C3E00112337 /* PBXTargetDependency */,
+			);
+			name = "DMPKeyChain-For-Master_Main_swiftUITests";
+			productName = "DMPKeyChain-For-Master_Main_swiftUITests";
+			productReference = FB4ED89F1F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB4ED8781F5F9C3E00112337 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = True;
+				TargetAttributes = {
+					FB4ED87F1F5F9C3E00112337 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L52U2QMKSA;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					FB4ED8931F5F9C3E00112337 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L52U2QMKSA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB4ED87F1F5F9C3E00112337;
+					};
+					FB4ED89E1F5F9C3E00112337 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L52U2QMKSA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB4ED87F1F5F9C3E00112337;
+					};
+				};
+			};
+			buildConfigurationList = FB4ED87B1F5F9C3E00112337 /* Build configuration list for PBXProject "DMPKeyChain-For-Master_Main_swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB4ED8771F5F9C3E00112337;
+			productRefGroup = FB4ED8811F5F9C3E00112337 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB4ED87F1F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swift */,
+				FB4ED8931F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swiftTests */,
+				FB4ED89E1F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB4ED87E1F5F9C3E00112337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4ED88E1F5F9C3E00112337 /* LaunchScreen.storyboard in Resources */,
+				FB4ED88B1F5F9C3E00112337 /* Assets.xcassets in Resources */,
+				FB4ED8891F5F9C3E00112337 /* Main.storyboard in Resources */,
+				FB4ED8B61F5F9EC600112337 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4ED8921F5F9C3E00112337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4ED89D1F5F9C3E00112337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB4ED87C1F5F9C3E00112337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB26561A1F5FD68F00595740 /* SMBUITextfield.swift in Sources */,
+				FB4ED8B51F5F9EC600112337 /* MainViewController.swift in Sources */,
+				FB4ED8BD1F5FA1BB00112337 /* DMPKeyChain.m in Sources */,
+				FB4ED8861F5F9C3E00112337 /* ViewController.swift in Sources */,
+				FB4ED8841F5F9C3E00112337 /* AppDelegate.swift in Sources */,
+				FB26561B1F5FD68F00595740 /* SMBUITextView.swift in Sources */,
+				FB2656191F5FD68F00595740 /* SMBUIButton.swift in Sources */,
+				FB26561C1F5FD68F00595740 /* SMBUIView.swift in Sources */,
+				FB2656131F5FD1B600595740 /* TokenKeyChain.swift in Sources */,
+				FB4ED8BA1F5FA16500112337 /* UICKeyChainStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4ED8901F5F9C3E00112337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4ED8991F5F9C3E00112337 /* DMPKeyChain_For_Master_Main_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4ED89B1F5F9C3E00112337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4ED8A41F5F9C3E00112337 /* DMPKeyChain_For_Master_Main_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB4ED8961F5F9C3E00112337 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB4ED87F1F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swift */;
+			targetProxy = FB4ED8951F5F9C3E00112337 /* PBXContainerItemProxy */;
+		};
+		FB4ED8A11F5F9C3E00112337 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB4ED87F1F5F9C3E00112337 /* DMPKeyChain-For-Master_Main_swift */;
+			targetProxy = FB4ED8A01F5F9C3E00112337 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB4ED8871F5F9C3E00112337 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB4ED8881F5F9C3E00112337 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB4ED88C1F5F9C3E00112337 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB4ED88D1F5F9C3E00112337 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB4ED8A61F5F9C3E00112337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB4ED8A71F5F9C3E00112337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB4ED8A91F5F9C3E00112337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "DMPKeyChain-For-Master_Main_swift/DMPKeyChain-For-Master_Main_swift.entitlements";
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = "DMPKeyChain-For-Master_Main_swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sw.keychainsample.DMPKeyChain-For-Master-Client-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DMPKeyChain-For-Master_Main_swift/Lib/DMPKeyChain-For-Master_Main_swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FB4ED8AA1F5F9C3E00112337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "DMPKeyChain-For-Master_Main_swift/DMPKeyChain-For-Master_Main_swift.entitlements";
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = "DMPKeyChain-For-Master_Main_swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sw.keychainsample.DMPKeyChain-For-Master-Client-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DMPKeyChain-For-Master_Main_swift/Lib/DMPKeyChain-For-Master_Main_swift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FB4ED8AC1F5F9C3E00112337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = "DMPKeyChain-For-Master_Main_swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sw.keychainsample.DMPKeyChain-For-Master-Main-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMPKeyChain-For-Master_Main_swift.app/DMPKeyChain-For-Master_Main_swift";
+			};
+			name = Debug;
+		};
+		FB4ED8AD1F5F9C3E00112337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = "DMPKeyChain-For-Master_Main_swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sw.keychainsample.DMPKeyChain-For-Master-Main-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMPKeyChain-For-Master_Main_swift.app/DMPKeyChain-For-Master_Main_swift";
+			};
+			name = Release;
+		};
+		FB4ED8AF1F5F9C3E00112337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = "DMPKeyChain-For-Master_Main_swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sw.keychainsample.DMPKeyChain-For-Master-Main-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DMPKeyChain-For-Master_Main_swift";
+			};
+			name = Debug;
+		};
+		FB4ED8B01F5F9C3E00112337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = "DMPKeyChain-For-Master_Main_swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sw.keychainsample.DMPKeyChain-For-Master-Main-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DMPKeyChain-For-Master_Main_swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB4ED87B1F5F9C3E00112337 /* Build configuration list for PBXProject "DMPKeyChain-For-Master_Main_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4ED8A61F5F9C3E00112337 /* Debug */,
+				FB4ED8A71F5F9C3E00112337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4ED8A81F5F9C3E00112337 /* Build configuration list for PBXNativeTarget "DMPKeyChain-For-Master_Main_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4ED8A91F5F9C3E00112337 /* Debug */,
+				FB4ED8AA1F5F9C3E00112337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4ED8AB1F5F9C3E00112337 /* Build configuration list for PBXNativeTarget "DMPKeyChain-For-Master_Main_swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4ED8AC1F5F9C3E00112337 /* Debug */,
+				FB4ED8AD1F5F9C3E00112337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4ED8AE1F5F9C3E00112337 /* Build configuration list for PBXNativeTarget "DMPKeyChain-For-Master_Main_swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4ED8AF1F5F9C3E00112337 /* Debug */,
+				FB4ED8B01F5F9C3E00112337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB4ED8781F5F9C3E00112337 /* Project object */;
+}
